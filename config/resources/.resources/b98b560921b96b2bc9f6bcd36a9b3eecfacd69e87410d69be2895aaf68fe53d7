@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "uuid": "c5ac694a-8a9c-4654-ba0f-7637647114ee",
+      "username": "nzafar",
+      "schedule": "Always",
+      "password": "[50fc5c33]19abd91421f09f775d0c8d9f0f5057abd825763bebbaaa925ddb2b575334fc21",
+      "passwordDate": "20251209.111844109+0000",
+      "passwordHistory": [],
+      "createdDate": "20251209.111844109+0000",
+      "lastModifiedDate": "20251209.111844109+0000",
+      "roles": [
+        "0a8c2623-7514-428d-a4da-ea58e492668e"
+      ],
+      "extraProps": [],
+      "scheduleAdjustments": [],
+      "contactInfos": []
+    }
+  ],
+  "roles": [
+    {
+      "uuid": "0a8c2623-7514-428d-a4da-ea58e492668e",
+      "rolename": "Administrator",
+      "createdDate": "20251209.111844109+0000",
+      "lastModifiedDate": "20251209.111844109+0000"
+    }
+  ]
+}
