@@ -1,0 +1,19 @@
+{
+  "scope": "A",
+  "description": "",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "config.json"
+  ],
+  "attributes": {
+    "lastModification": {
+      "actor": "nzafar",
+      "timestamp": "2025-12-16T15:38:32Z"
+    },
+    "uuid": "95bfdf26-d168-4106-b0a3-8cd7a371ebc3",
+    "lastModificationSignature": "75bac42c0ae429ca2e06764cef2c618a645ac85dc6947d5d597258242ac9a434",
+    "enabled": true
+  }
+}

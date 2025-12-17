@@ -1,0 +1,19 @@
+{
+  "profile": {
+    "type": "internal"
+  },
+  "settings": {
+    "secrets": {
+      "pass": {
+        "ciphertext": {
+          "ciphertext": "6fva-RWb",
+          "encrypted_key": "7sZiGkAKNwxLMv6cVSD-FPKqv4-gh3ZwdO46Y60X6bhiF6bAIsXpKg",
+          "iv": "_nQS77yZpX8CfD6e",
+          "protected": "eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIiwiaWF0IjoxNzY1ODE2NzI1LCJ6aXAiOiJERUYifQ",
+          "tag": "TtfGEnG89WJdPUqYo1gUdg"
+        },
+        "description": ""
+      }
+    }
+  }
+}

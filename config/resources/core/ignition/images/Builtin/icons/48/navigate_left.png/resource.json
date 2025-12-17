@@ -1,0 +1,20 @@
+{
+  "scope": "A",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "navigate_left.png"
+  ],
+  "attributes": {
+    "width": 48,
+    "format": "PNG",
+    "lastModification": {
+      "actor": "import",
+      "timestamp": "2025-12-09T11:19:39Z"
+    },
+    "size": 883,
+    "lastModificationSignature": "e95b72a25ae0e68d49ff583814a5ef5500f9212a4f6bc0e2e38299be4eb6c150",
+    "height": 48
+  }
+}

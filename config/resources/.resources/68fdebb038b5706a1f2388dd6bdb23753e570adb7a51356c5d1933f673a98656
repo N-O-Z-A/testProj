@@ -1,0 +1,20 @@
+{
+  "directConnection": false,
+  "entityPolicies": [],
+  "entityZonePolicy": {
+    "priority": 0
+  },
+  "gatewayNames": [
+    "localhost"
+  ],
+  "hostNames": [
+    "NNIT-PF57877M"
+  ],
+  "ipAddresses": [
+    "10.0.202.*"
+  ],
+  "isSecure": false,
+  "scopeClient": true,
+  "scopeDesigner": true,
+  "scopeGateway": true
+}

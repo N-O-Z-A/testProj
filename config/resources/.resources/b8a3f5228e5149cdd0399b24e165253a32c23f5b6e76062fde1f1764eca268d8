@@ -1,0 +1,96 @@
+{
+  "profile": {
+    "allowBackfill": false,
+    "enableTagReferenceStore": true,
+    "type": "STANDARD"
+  },
+  "settings": {
+    "defaultDatasourceName": null,
+    "editPermissions": {
+      "securityLevels": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [],
+                      "description": "Represents the security zones that a user has.",
+                      "name": "SecurityZones"
+                    }
+                  ],
+                  "description": "System generated security level representing read and write privileges to Gateway configuration",
+                  "name": "Administrator"
+                }
+              ],
+              "description": "Represents the roles that a user has.",
+              "name": "Roles"
+            }
+          ],
+          "description": "Represents a user who has been authenticated by the system.",
+          "name": "Authenticated"
+        }
+      ],
+      "type": "AnyOf"
+    },
+    "readOnly": false,
+    "readPermissions": {
+      "securityLevels": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [],
+                      "description": "Represents the security zones that a user has.",
+                      "name": "SecurityZones"
+                    }
+                  ],
+                  "description": "System generated security level representing read and write privileges to Gateway configuration",
+                  "name": "Administrator"
+                }
+              ],
+              "description": "Represents the roles that a user has.",
+              "name": "Roles"
+            }
+          ],
+          "description": "Represents a user who has been authenticated by the system.",
+          "name": "Authenticated"
+        }
+      ],
+      "type": "AnyOf"
+    },
+    "valuePersistence": "Database",
+    "writePermissions": {
+      "securityLevels": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [],
+                      "description": "Represents the security zones that a user has.",
+                      "name": "SecurityZones"
+                    }
+                  ],
+                  "description": "System generated security level representing read and write privileges to Gateway configuration",
+                  "name": "Administrator"
+                }
+              ],
+              "description": "Represents the roles that a user has.",
+              "name": "Roles"
+            }
+          ],
+          "description": "Represents a user who has been authenticated by the system.",
+          "name": "Authenticated"
+        }
+      ],
+      "type": "AnyOf"
+    }
+  }
+}

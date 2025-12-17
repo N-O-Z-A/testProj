@@ -1,0 +1,57 @@
+{
+  "profile": {
+    "allowBackfill": false,
+    "enableTagReferenceStore": true,
+    "type": "STANDARD"
+  },
+  "settings": {
+    "defaultDatasourceName": null,
+    "editPermissions": {
+      "securityLevels": [
+        {
+          "children": [
+            {
+              "children": [],
+              "name": "forVMTags"
+            }
+          ],
+          "description": "Represents the security zones that a user has.",
+          "name": "SecurityZones"
+        }
+      ],
+      "type": "AnyOf"
+    },
+    "readOnly": false,
+    "readPermissions": {
+      "securityLevels": [
+        {
+          "children": [
+            {
+              "children": [],
+              "name": "forVMTags"
+            }
+          ],
+          "description": "Represents the security zones that a user has.",
+          "name": "SecurityZones"
+        }
+      ],
+      "type": "AnyOf"
+    },
+    "valuePersistence": "Database",
+    "writePermissions": {
+      "securityLevels": [
+        {
+          "children": [
+            {
+              "children": [],
+              "name": "forVMTags"
+            }
+          ],
+          "description": "Represents the security zones that a user has.",
+          "name": "SecurityZones"
+        }
+      ],
+      "type": "AnyOf"
+    }
+  }
+}

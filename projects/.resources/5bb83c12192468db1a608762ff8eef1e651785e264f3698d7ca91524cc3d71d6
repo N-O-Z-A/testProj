@@ -1,0 +1,75 @@
+{
+  "enabled": true,
+  "source": {
+    "type": "ignition.tagEvent",
+    "config": {
+      "paths": [
+        "[default]Test"
+      ],
+      "changeTypes": [
+        "VALUE",
+        "QUALITY",
+        "TIMESTAMP"
+      ],
+      "skipInitialValues": false
+    }
+  },
+  "sourceEncoder": {
+    "type": "ignition.string",
+    "properties": {
+      "encoding": "UTF-8"
+    }
+  },
+  "handlers": [
+    {
+      "enabled": true,
+      "type": "ignition.tag",
+      "config": {
+        "tagPath": {
+          "data": "\"[default]Test\"",
+          "type": "EXPRESSION"
+        },
+        "value": {
+          "data": "5",
+          "type": "EXPRESSION"
+        },
+        "quality": {
+          "data": "\u0027Good\u0027",
+          "type": "EXPRESSION"
+        },
+        "timestamp": {
+          "data": "now()",
+          "type": "EXPRESSION"
+        }
+      },
+      "failureStrategy": {
+        "type": "ABORT",
+        "retryPolicy": null
+      }
+    }
+  ],
+  "batch": {
+    "debounceMs": 100,
+    "maxWaitMs": 1000,
+    "maxQueueSize": 0,
+    "overflow": "DROP_OLDEST"
+  },
+  "filter": {
+    "enabled": true,
+    "userCode": "\tif event.data \u003d\u003d 10:\n\t\treturn False\n\telse:\n\t\treturn True"
+  },
+  "transform": {
+    "enabled": true,
+    "userCode": "\treturn event.data"
+  },
+  "transformEncoder": {
+    "type": "ignition.jsonObject",
+    "properties": {
+      "encoding": "UTF-8"
+    }
+  },
+  "onError": {
+    "enabled": true,
+    "userCode": "\tprint \u0027Error\u0027"
+  }
+}

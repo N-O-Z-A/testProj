@@ -1,0 +1,2 @@
+def onStartup():
+	print 'StartupScript'

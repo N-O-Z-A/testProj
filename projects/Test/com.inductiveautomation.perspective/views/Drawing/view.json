@@ -1,0 +1,154 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {},
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "Drawing"
+        },
+        "position": {
+          "height": 300,
+          "width": 300,
+          "x": 166,
+          "y": 81
+        },
+        "props": {
+          "elements": [
+            {
+              "elements": [
+                {
+                  "fill": {
+                    "paint": "#324584"
+                  },
+                  "name": "perspective-star",
+                  "specialPath": {
+                    "angle": 39,
+                    "corners": 12,
+                    "height": 466.9646503814269,
+                    "rounding": 1,
+                    "spokeRatio": 0.4107805587496125,
+                    "width": 466.9646503814269,
+                    "x": 16.51768063785059,
+                    "y": 16.51768063785056
+                  },
+                  "stroke": {
+                    "paint": "#1c1c1d"
+                  },
+                  "type": "perspective-star"
+                },
+                {
+                  "fill": {
+                    "paint": "none"
+                  },
+                  "name": "perspective-arc",
+                  "specialPath": {
+                    "end": 0,
+                    "height": 300,
+                    "slice": true,
+                    "start": 0,
+                    "width": 300,
+                    "x": 100,
+                    "y": 100
+                  },
+                  "stroke": {
+                    "paint": "#324584",
+                    "width": "20px"
+                  },
+                  "type": "perspective-arc"
+                },
+                {
+                  "fill": {
+                    "opacity": 1,
+                    "paint": "hsl(103, 11%, 99%)"
+                  },
+                  "name": "perspective-arc_0",
+                  "specialPath": {
+                    "end": 0,
+                    "height": 300,
+                    "slice": true,
+                    "start": 0,
+                    "width": 300,
+                    "x": 100,
+                    "y": 100
+                  },
+                  "stroke": {
+                    "paint": "#324584",
+                    "width": "20px"
+                  },
+                  "type": "perspective-arc"
+                }
+              ],
+              "name": "group_0",
+              "type": "group"
+            },
+            {
+              "elements": [
+                {
+                  "fill": {
+                    "paint": "#a1f559"
+                  },
+                  "height": "27",
+                  "name": "rect",
+                  "rx": 15,
+                  "ry": 15,
+                  "stroke": {
+                    "paint": "none"
+                  },
+                  "type": "rect",
+                  "width": "193",
+                  "x": "725",
+                  "y": "423"
+                },
+                {
+                  "fill": {
+                    "paint": "#a1f559"
+                  },
+                  "height": "27",
+                  "name": "rect_0",
+                  "rx": 15,
+                  "ry": 15,
+                  "stroke": {
+                    "paint": "none"
+                  },
+                  "transform": "matrix(0.484809547662735 0.874619722366333 -0.874619722366333 0.484809547662735 731.6884765625 -449.15960693359375)",
+                  "type": "rect",
+                  "width": "101",
+                  "x": "764.9646606445312",
+                  "y": "263.80169677734375"
+                },
+                {
+                  "fill": {
+                    "paint": "#a1f559"
+                  },
+                  "height": "27",
+                  "name": "rect_1",
+                  "rx": 15,
+                  "ry": 15,
+                  "stroke": {
+                    "paint": "none"
+                  },
+                  "transform": "matrix(0.484809547662735 -0.874619722366333 -0.874619722366333 -0.484809547662735 731.6884765625 1382.16015625)",
+                  "type": "rect",
+                  "width": "101",
+                  "x": "821.0357055664062",
+                  "y": "292.59539794921875"
+                }
+              ],
+              "name": "group",
+              "transform": "matrix(1 0 0 1 -573.895263671875 -185.0001220703125)",
+              "type": "group"
+            }
+          ],
+          "viewBox": "0 0 500 500"
+        },
+        "type": "ia.shapes.svg"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "type": "ia.container.coord"
+  }
+}

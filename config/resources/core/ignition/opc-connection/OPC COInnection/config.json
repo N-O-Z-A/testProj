@@ -1,0 +1,24 @@
+{
+  "profile": {
+    "readOnly": false,
+    "type": "OPC_COM_ServerType"
+  },
+  "settings": {
+    "asyncWriteTimeout": 30000,
+    "asyncWrites": true,
+    "compatibility": {
+      "generatedGroupNames": true,
+      "requestDataType": false,
+      "uniqueGroupNames": true
+    },
+    "progId": "",
+    "remote": {
+      "clsid": "",
+      "host": "",
+      "isRemote": false
+    },
+    "useDa2": false,
+    "useFlatBrowse": false,
+    "useKeepalive": false
+  }
+}

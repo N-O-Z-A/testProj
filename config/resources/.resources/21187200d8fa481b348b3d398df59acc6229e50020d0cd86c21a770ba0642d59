@@ -1,0 +1,26 @@
+[
+  {
+    "valueSource": "memory",
+    "name": "tag1",
+    "defaultValue": 0,
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "name": "tag2",
+    "defaultValue": 1,
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "name": "tag3",
+    "defaultValue": 3,
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "name": "tag4",
+    "defaultValue": 4,
+    "tagType": "AtomicTag"
+  }
+]

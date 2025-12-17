@@ -1,0 +1,20 @@
+{
+  "scope": "A",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "line-chart.png"
+  ],
+  "attributes": {
+    "width": 48,
+    "format": "PNG",
+    "lastModification": {
+      "actor": "import",
+      "timestamp": "2025-12-09T11:19:39Z"
+    },
+    "size": 1936,
+    "lastModificationSignature": "345ea5321bff56cf3e2e2ebfd1fa1b2c6a1ba8325c6978618f27912eb3a08490",
+    "height": 48
+  }
+}

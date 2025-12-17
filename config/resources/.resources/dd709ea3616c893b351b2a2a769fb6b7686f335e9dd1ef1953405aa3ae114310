@@ -1,0 +1,19 @@
+{
+  "profile": {
+    "type": "S71500"
+  },
+  "settings": {
+    "advanced": {
+      "cpuSlotNumber": 1,
+      "pduSize": 240,
+      "rackNumber": 0,
+      "reconnectAfterConsecutiveTimeouts": false
+    },
+    "connectivity": {
+      "hostname": "192.168.0.15",
+      "localAddress": "",
+      "port": 102,
+      "timeout": 2000
+    }
+  }
+}
